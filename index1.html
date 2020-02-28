@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>nothing</title>
+</head>
+
+<body>
+<a href='javascript:openUrl()'>Click here to Questionnaire</a>
+<script>
+var sites=['https://www.wjx.cn/jq/60462874.aspx',
+'https://www.wjx.cn/jq/60440054.aspx'
+];
+
+function openUrl(){
+    var i = Math.round(Math.random()*(sites.length-1));
+    window.location.href=sites[i];
+    return false;
+}
+</script>
+</body>
+
+</html>
